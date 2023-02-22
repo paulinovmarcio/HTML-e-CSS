@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Kaushan+Script&family=Poor+Story&family=Raleway:wght@100;300;400;500;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'grega';
+    src: url('media/GreekHouse\ Symbolized_Free.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #EB4511, #93E1D8, #009FFD, #2A2A72 , #232528);
+}
+
+h1{
+    font-family: 'grega';
+    font-weight: normal;
+    font-size: 4em;
+    color: #2A2A72;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+ul > p{
+    font-size: 1.4em;
+    font-weight: 700;
+    color: black;
+}
+
+ul > li {
+    font-weight: bold;
+    color: #2A2A72;
+}
+

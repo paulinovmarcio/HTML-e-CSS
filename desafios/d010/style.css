@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "idroid";
+    src: url("Fontes/idroid.otf") format("opentype");
+}
+
+
+body{
+    background-color: #84E1AD;
+    margin: 0;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+header {
+    background-image: linear-gradient(to right, #1A5C38, #8EF4BC,#44F292,#36BF74,#437358);
+    width: auto;
+}
+
+aside p{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.3em;
+    padding-bottom: 0;
+}
+
+header nav a:hover{
+    background-color: rgba(255, 255, 255, 0.177);
+}
+
+main section h1{
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0.65em;
+    padding-left: 0.75em;
+    font-family: "idroid" , sans-serif;
+    color: #1C5D3A;
+    font-weight: 400;
+}
+
+main section{
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+.texto{
+    padding-left: 0.75em;
+    text-indent: 2em;
+}
+.texto a:hover{
+    text-decoration: underline;
+    color: #1A5C38;
+}
+
+.texto a {
+    text-decoration: none;
+}
+
+.texto strong{
+    color: #1C5D3A;
+    font-weight: bolder;
+}
+
+.subtitulo{
+    padding-left: 0.25em;
+    text-transform: uppercase;
+    font-family: "idroid", sans-serif;
+    color: #1C5D3A;
+    font-weight: 300;
+    background-color: #a4f5c9c9 ;
+    margin-left: 0.75em;
+}
+
+.fotos{
+    width: 80%;
+    padding-left: 10%;
+}
+
+section article img{
+    width: 93%;
+    padding-left: 5%;
+}
+
+#videos{
+    width: 90%;
+    min-height: 90%;
+    padding: 2em;
+}
+
+.youtube{
+    background-color: #1C5D3A;
+    width: 100%;
+
+}
+
+.curiosidades{
+    background-color: white;
+    width: 80%;
+    border-bottom-left-radius: 0.45em;
+    border-bottom-right-radius: 0.45em;
+}
+
+.destaque h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #2FA866;
+    color: white;
+    font-weight: 300;
+    padding-left: 0.55em;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    border-top-left-radius: 0.45em;
+    border-top-right-radius: 0.45em;
+}
+
+.destaque{
+    padding: 0.75em;
+}
+
+.assuntos{
+   background-color: #C5EBD6;
+   margin: 0;
+   text-align: justify;
+   width: 100%;
+   border-bottom-left-radius: 0.45em;
+   border-bottom-right-radius: 0.45em;
+}
+
+.especial{
+    padding-left: 0.75em;
+    text-indent: 2em;
+    margin: 0;
+    padding-top: 0.45em;
+    padding-right: 0.35em;
+}
+
+.especial a{
+    text-decoration: none;
+}
+
+.especial a::after {
+    content: '💡';
+    text-decoration: none;
+}
+
+.especial strong{
+    color: #1C5D3A;
+    font-weight: bolder;
+}
+
+.lista{
+    display: inline-block;
+    padding-right: 3em;
+    list-style: none;
+    
+}
+
+.lista li::before {
+    content:  ' ✔ ';
+}
+
+footer section strong{
+    color: white;
+    font-weight: 900;
+}
+
+footer section p{
+    background-color: #1A5C38;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(211, 197, 197);
+    padding: 0.25em;
+}

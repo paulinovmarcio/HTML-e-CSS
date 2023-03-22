@@ -41,14 +41,72 @@ header p a:hover{
 
 main {
     font-family: 'Sriracha', cursive;
-    font-size: 25px;
+    font-size: 1.56em;
 }
 
-main div {
-    margin-left: 40px;
-    background-color: gray;
-    width: 279px;
-    height: 450px;
-    line-height: 51px;
-    
+main section{
+    min-height: 340px;
 }
+
+.primeiro{
+    padding: 50px 0px 90px 30px;
+
+}
+
+.segundo{
+    background-image: url(assets/imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+    padding: 50px 0px 90px 30px;
+}
+
+.segundo p{
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 291px;
+    color: white;
+}
+
+.terceiro {
+    padding: 50px 0px 90px 30px;
+}
+
+.terceiro p {
+    padding-bottom: 30px;
+}
+
+#quarto {
+    background-image: url(assets/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+    padding: 50px 0px 90px 30px;
+}
+
+#quarto p{
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 291px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 1.1em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+

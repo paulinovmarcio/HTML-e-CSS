@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptate. Asperiores ipsam ullam sunt iste recusandae laboriosam veniam reiciendis dolor quae corporis quasi earum maxime omnis odio, est perspiciatis sint.</p>
+
+    <ul>
+        <li><a target="frame" href="paginas-extra/pagina001.html">Primeira página</a></li>
+        <li><a target="frame" href="paginas-extra/pagina002.html">Segunda página</a></li>
+        <li><a target="frame" href="paginas-extra/pagina003.html">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae natus iusto corrupti vero id voluptatem ut tempore quasi nam eius aut facilis, illum quibusdam, molestiae, dolor ea officia soluta molestias! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dignissimos? Laborum placeat facilis delectus dolore hic quas consectetur quidem iure officia voluptates nulla et maxime, labore necessitatibus laudantium animi dolorum.</p>
+
+    
+
+    <iframe id="tela" name="frame" srcdoc=" <h1> Escolha uma das opções acima </h1> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat provident, natus saepe temporibus unde impedit neque, rerum odio excepturi hic obcaecati veniam cumque nam odit. Architecto qui ducimus recusandae nesciunt. </p>" frameborder="0">
+        <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum non eligendi dolorem minima. Totam omnis laudantium consequuntur hic corrupti vitae, nisi culpa ipsum quod? Officiis natus aliquam nesciunt eaque eius?</p>
+    
+</body>
+</html>
